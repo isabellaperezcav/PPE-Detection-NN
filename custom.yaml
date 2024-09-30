@@ -1,0 +1,11 @@
+train: C:\Users\ASUS\Desktop\Detector\Data\train\ # Ruta correcta a las imágenes de entrenamiento
+val: C:\Users\ASUS\Desktop\Detector\Data\val\     # Ruta correcta a las imágenes de validación
+test:                              # Opcional, puedes dejarlo vacío si no tienes datos de prueba
+
+# Clases
+names:
+  0: persona
+  1: guantes
+  2: chaleco
+  3: gafas_protec
+  4: casco
